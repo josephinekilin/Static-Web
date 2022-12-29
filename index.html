@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Web Statis | JK Gallery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: palevioletred">
+      <div class="container">
+        <a class="navbar-brand" href="#">Josephine Kilin Gallery</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar-->
+    <!-- Jumbotron -->
+    <section class="jumbotron text-center">
+      <img src="img/dp.jpg" alt="Josephine Kilin" width="200" class="rounded-circle img-thumbnail" />
+      <h1 class="display-4">Josephine Kilin Gallery</h1>
+      <p class="lead">Digital & Traditional Artist</p>
+      <svg id="wave" style="transform: rotate(0deg); transition: 0.3s" viewBox="0 0 1440 420" version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+            <stop stop-color="rgba(197.54, 41.995, 41.995, 1)" offset="0%"></stop>
+            <stop stop-color="rgba(255, 143.482, 251.726, 1)" offset="100%"></stop>
+          </linearGradient>
+        </defs>
+        <path
+          style="transform: translate(0, 0px); opacity: 1"
+          fill="url(#sw-gradient-0)"
+          d="M0,168L10,203C20,238,40,308,60,294C80,280,100,182,120,161C140,140,160,196,180,189C200,182,220,112,240,105C260,98,280,154,300,196C320,238,340,266,360,280C380,294,400,294,420,280C440,266,460,238,480,238C500,238,520,266,540,294C560,322,580,350,600,336C620,322,640,266,660,210C680,154,700,98,720,70C740,42,760,42,780,56C800,70,820,98,840,140C860,182,880,238,900,224C920,210,940,126,960,126C980,126,1000,210,1020,252C1040,294,1060,294,1080,294C1100,294,1120,294,1140,252C1160,210,1180,126,1200,126C1220,126,1240,210,1260,238C1280,266,1300,238,1320,245C1340,252,1360,294,1380,259C1400,224,1420,112,1430,56L1440,0L1440,420L1430,420C1420,420,1400,420,1380,420C1360,420,1340,420,1320,420C1300,420,1280,420,1260,420C1240,420,1220,420,1200,420C1180,420,1160,420,1140,420C1120,420,1100,420,1080,420C1060,420,1040,420,1020,420C1000,420,980,420,960,420C940,420,920,420,900,420C880,420,860,420,840,420C820,420,800,420,780,420C760,420,740,420,720,420C700,420,680,420,660,420C640,420,620,420,600,420C580,420,560,420,540,420C520,420,500,420,480,420C460,420,440,420,420,420C400,420,380,420,360,420C340,420,320,420,300,420C280,420,260,420,240,420C220,420,200,420,180,420C160,420,140,420,120,420C100,420,80,420,60,420C40,420,20,420,10,420L0,420Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- End Jumbotron -->
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>About Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-md-4">
+            <p>I started painting as a hobby when I was little. I didn’t know I had any talent. I believe talent is just a pursued interest. Anybody can do what I do.</p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffb6c1"
+          fill-opacity="1"
+          d="M0,256L10.4,240C20.9,224,42,192,63,176C83.5,160,104,160,125,138.7C146.1,117,167,75,188,53.3C208.7,32,230,32,250,58.7C271.3,85,292,139,313,170.7C333.9,203,355,213,376,213.3C396.5,213,417,203,438,186.7C459.1,171,480,149,501,160C521.7,171,543,213,563,218.7C584.3,224,605,192,626,192C647,192,668,224,689,229.3C709.6,235,730,213,751,213.3C772.2,213,793,235,814,240C834.8,245,856,235,877,208C897.4,181,918,139,939,144C960,149,981,203,1002,192C1022.6,181,1043,107,1064,101.3C1085.2,96,1106,160,1127,202.7C1147.8,245,1169,267,1190,234.7C1210.4,203,1231,117,1252,69.3C1273,21,1294,11,1315,48C1335.7,85,1357,171,1377,176C1398.3,181,1419,107,1430,69.3L1440,32L1440,320L1429.6,320C1419.1,320,1398,320,1377,320C1356.5,320,1336,320,1315,320C1293.9,320,1273,320,1252,320C1231.3,320,1210,320,1190,320C1168.7,320,1148,320,1127,320C1106.1,320,1085,320,1064,320C1043.5,320,1023,320,1002,320C980.9,320,960,320,939,320C918.3,320,897,320,877,320C855.7,320,835,320,814,320C793,320,772,320,751,320C730.4,320,710,320,689,320C667.8,320,647,320,626,320C605.2,320,584,320,563,320C542.6,320,522,320,501,320C480,320,459,320,438,320C417.4,320,397,320,376,320C354.8,320,334,320,313,320C292.2,320,271,320,250,320C229.6,320,209,320,188,320C167,320,146,320,125,320C104.3,320,83,320,63,320C41.7,320,21,320,10,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- End About -->
+    <!-- Gallery -->
+    <section id="gallery">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>My Art</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <a href="https://www.instagram.com/p/CCvZhu_hCR_/?utm_source=ig_web_copy_link"> <img src="./img/gallery/emma.jpg" class="card-img-top" alt="Gallery 1" /></a>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <a href="https://www.instagram.com/p/B0pvtoWDhhH/?utm_source=ig_web_copy_link"> <img src="./img/gallery/wolf.jpg" class="card-img-top" alt="Gallery 2" /></a>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <a href="https://www.instagram.com/p/CPkBbfuDrV9/?utm_source=ig_web_copy_link"> <img src="./img/gallery/kopiko.jpg" class="card-img-top" alt="Gallery 3" /></a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <a href="https://www.instagram.com/p/BwJ2JYBnlto/?utm_source=ig_web_copy_link"> <img src="./img/gallery/view.jpg" class="card-img-top" alt="Gallery 4" /></a>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card" style="margin-top: 200px">
+              <a href="#" class="btn btn-danger">Click Here For More</a>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card justify-content-center">
+              <a href="https://www.instagram.com/p/CCDKPhojiBi/?utm_source=ig_web_copy_link"> <img src="./img/gallery/bird.jpg" class="card-img-top" alt="Gallery 5" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#c62a2a"
+          fill-opacity="1"
+          d="M0,320L8.3,293.3C16.6,267,33,213,50,202.7C66.2,192,83,224,99,234.7C115.9,245,132,235,149,218.7C165.5,203,182,181,199,154.7C215.2,128,232,96,248,112C264.8,128,281,192,298,192C314.5,192,331,128,348,90.7C364.1,53,381,43,397,42.7C413.8,43,430,53,447,74.7C463.4,96,480,128,497,144C513.1,160,530,160,546,149.3C562.8,139,579,117,596,138.7C612.4,160,629,224,646,218.7C662.1,213,679,139,695,138.7C711.7,139,728,213,745,213.3C761.4,213,778,139,794,122.7C811,107,828,149,844,160C860.7,171,877,149,894,144C910.3,139,927,149,943,170.7C960,192,977,224,993,218.7C1009.7,213,1026,171,1043,149.3C1059.3,128,1076,128,1092,117.3C1109,107,1126,85,1142,112C1158.6,139,1175,213,1192,256C1208.3,299,1225,309,1241,298.7C1257.9,288,1274,256,1291,218.7C1307.6,181,1324,139,1341,112C1357.2,85,1374,75,1390,96C1406.9,117,1423,171,1432,197.3L1440,224L1440,320L1431.7,320C1423.4,320,1407,320,1390,320C1373.8,320,1357,320,1341,320C1324.1,320,1308,320,1291,320C1274.5,320,1258,320,1241,320C1224.8,320,1208,320,1192,320C1175.2,320,1159,320,1142,320C1125.5,320,1109,320,1092,320C1075.9,320,1059,320,1043,320C1026.2,320,1010,320,993,320C976.6,320,960,320,943,320C926.9,320,910,320,894,320C877.2,320,861,320,844,320C827.6,320,811,320,794,320C777.9,320,761,320,745,320C728.3,320,712,320,695,320C678.6,320,662,320,646,320C629,320,612,320,596,320C579.3,320,563,320,546,320C529.7,320,513,320,497,320C480,320,463,320,447,320C430.3,320,414,320,397,320C380.7,320,364,320,348,320C331,320,314,320,298,320C281.4,320,265,320,248,320C231.7,320,215,320,199,320C182.1,320,166,320,149,320C132.4,320,116,320,99,320C82.8,320,66,320,50,320C33.1,320,17,320,8,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- End Gallery -->
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-warning">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#d87093"
+          fill-opacity="1"
+          d="M0,128L8.3,149.3C16.6,171,33,213,50,224C66.2,235,83,213,99,218.7C115.9,224,132,256,149,261.3C165.5,267,182,245,199,234.7C215.2,224,232,224,248,192C264.8,160,281,96,298,80C314.5,64,331,96,348,122.7C364.1,149,381,171,397,176C413.8,181,430,171,447,176C463.4,181,480,203,497,181.3C513.1,160,530,96,546,112C562.8,128,579,224,596,229.3C612.4,235,629,149,646,128C662.1,107,679,149,695,138.7C711.7,128,728,64,745,69.3C761.4,75,778,149,794,181.3C811,213,828,203,844,202.7C860.7,203,877,213,894,192C910.3,171,927,117,943,117.3C960,117,977,171,993,202.7C1009.7,235,1026,245,1043,256C1059.3,267,1076,277,1092,266.7C1109,256,1126,224,1142,197.3C1158.6,171,1175,149,1192,128C1208.3,107,1225,85,1241,112C1257.9,139,1274,213,1291,250.7C1307.6,288,1324,288,1341,282.7C1357.2,277,1374,267,1390,261.3C1406.9,256,1423,256,1432,256L1440,256L1440,320L1431.7,320C1423.4,320,1407,320,1390,320C1373.8,320,1357,320,1341,320C1324.1,320,1308,320,1291,320C1274.5,320,1258,320,1241,320C1224.8,320,1208,320,1192,320C1175.2,320,1159,320,1142,320C1125.5,320,1109,320,1092,320C1075.9,320,1059,320,1043,320C1026.2,320,1010,320,993,320C976.6,320,960,320,943,320C926.9,320,910,320,894,320C877.2,320,861,320,844,320C827.6,320,811,320,794,320C777.9,320,761,320,745,320C728.3,320,712,320,695,320C678.6,320,662,320,646,320C629,320,612,320,596,320C579.3,320,563,320,546,320C529.7,320,513,320,497,320C480,320,463,320,447,320C430.3,320,414,320,397,320C380.7,320,364,320,348,320C331,320,314,320,298,320C281.4,320,265,320,248,320C231.7,320,215,320,199,320C182.1,320,166,320,149,320C132.4,320,116,320,99,320C82.8,320,66,320,50,320C33.1,320,17,320,8,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- End Contact -->
+    <!-- Footer -->
+    <footer style="background-color: #d87093" class="text-white text-center pb-5">Made with <i class="bi bi-heart-fill"></i> by <a href="https://www.instagram.com/josephinekilin/" class="text-white fw-bold">Josephine Kilin</a></footer>
+    <!-- End Footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
